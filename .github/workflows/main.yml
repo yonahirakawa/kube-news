@@ -24,6 +24,6 @@ jobs:
           file: ./src/Dockerfile
           push: true 
           tags: |
-            yonahuggler/kube-news:v1
+            yonahuggler/kube-news:${{github.run_number}}
             yonahuggler/kube-news:latest
     
